@@ -1,0 +1,22 @@
+input/output arduino
+
+pinMode : menentukan mode dari pin
+
+pinMode(no_pin, mode);
+no_pin:
+0-13 (untuk arduino uno)
+mode:
+OUTPUT
+INPUT
+INPUT_PULLUP (dia baca nilai dr pin digitalnya)
+
+output
+digitalWrite(no_pin, nilai)
+nilai
+1/0
+HIGH/LOW
+analogWrite
+
+input
+digitalRead
+analogRead
